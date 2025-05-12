@@ -56,6 +56,8 @@ dependencies {
     //Facilitates integration of ViewModel into Jetpack Compose to manage states and lifecycle.
     implementation(libs.androidx.lifecycle.viewmodel.compose)
 
+    implementation(libs.androidx.datastore.preferences)
+
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
